@@ -15,7 +15,25 @@
 		<meta name="author" content=" " />
 		<meta name="description" content="" />
 		<meta name="keywords"  content="" />
-
+		<script type = "text/javascript">  
+			function myfunction() {   
+			var name=document.getElementById("name").value;
+			var optionVal= document.getElementById("field_1").value;
+			var ageVal=5;
+            if(optionVal==1){
+				ageVal="5-15";
+			}else if(optionVal==2){
+				ageVal="16-25";
+			}else if(optionVal==3){
+				ageVal="26-35";
+			}else if(optionVal==4){			 
+				ageVal="35+";
+			}
+			var emailId=document.getElementById("email1").value; 
+			alert(name + ageVal +emailId );
+			 
+					 }  
+			</script>
 		<!-- GOOGLE FONTS -->
 		<link href='http://fonts.googleapis.com/css?family=Raleway:400,700,600,500,300,200,100,800,900' rel='stylesheet' type='text/css'> 
 
@@ -479,7 +497,7 @@
 									  1st
 									</div>
 									<h2>Prize</h2>
-									<p>...</p>
+									<p>15000</p>
 								</div>
 							  
 								<div class="col-md-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
@@ -487,7 +505,7 @@
 									 2nd
 									</div>
 									<h2>Prize</h2>
-									<p>...</p>
+									<p>10000</p>
 								</div>
 							  
 								<div class="col-md-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.9s">
@@ -495,7 +513,7 @@
 									  3rd
 									</div>
 									<h2>Prize</h2>
-									<p>...</p>
+									<p>5000</p>
 								</div>
 								<div class="clearfix"></div>
 							</div>
